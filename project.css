@@ -1,0 +1,317 @@
+/*kepes sidebar resz*/
+.image{
+    width: 287px;
+     height: 200px; 
+     left: 0px; 
+     top: 0px; 
+     position: absolute; 
+     background: linear-gradient(0deg, #C4C4C4 0%, #C4C4C4 100%); 
+     border-radius: 3px;
+}
+.otherarticlesdate{
+    left: 318px; 
+    top: 5px; 
+    position: absolute; 
+    text-align: right; 
+    color: #6C757D; 
+    font-size: 12px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 20px; 
+    word-wrap: break-word;
+}
+
+
+.articleinfos{
+    width: 287px; 
+    height: 105px; 
+    left: 318px; 
+    top: 40px; 
+    position: absolute; 
+    flex-direction: column; 
+    justify-content: flex-start; 
+    align-items: flex-start; 
+    gap: 15px; 
+    display: inline-flex;
+}
+.maintitle{
+    width: 287px;
+     color: #212529; 
+     font-size: 16px; 
+     font-family: Poppins; 
+     font-weight: 500; 
+     line-height: 25px; 
+     word-wrap: break-word;
+}
+.caption{
+    width: 287px; 
+    color: #6C757D; 
+    font-size: 12px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 20px;
+    word-wrap: break-word;
+}
+.author{
+    left: 318px; 
+    top: 175px; 
+    position: absolute; 
+    color: #6C757D; 
+    font-size: 12px; 
+    font-family: Poppins; 
+    font-weight: 300; 
+    line-height: 20px; 
+    word-wrap: break-word;
+}
+.dividingline{
+    width: 287px; 
+    height: 0px; 
+    left: 318px; 
+    top: 160px;
+    position: absolute;
+    border: 3px #E5E5E5 solid;
+}
+.articles{
+    width: 605px;
+     height: 200px; 
+     left: 629px; 
+    
+    position: absolute;
+}
+.cube{
+    width: 12.69px; 
+    height: 11.12px; 
+    left: 0px; 
+    top: 4px; 
+    position: absolute; 
+    background: rgba(108, 117, 125, 0.60);
+}
+.articlespage{
+    left: 17.69px;
+     top: 0px; 
+     position: absolute; 
+     text-align: right;
+      color: #6C757D; 
+      font-size: 12px; 
+      font-family: Poppins; 
+      font-weight: 300; 
+      line-height: 20px;
+     word-wrap: break-word;
+}
+.articleslowside{/*csak az oldalszámért és a négyzetért felel*/
+    /*width: 35.69px; 
+    height: 20px; */
+    left: 569px; 
+    top: 175px; 
+    position: absolute;
+}
+/*kepes sidebar resz*/
+/*baloldali sidebar resz*/
+.leftsidebartext1{
+    position: absolute; 
+    color: #495057; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 500px; 
+    line-height: 25px; 
+    word-wrap: break-word;
+    left: 19px;
+}
+.leftsidebartext2{
+    position: absolute; 
+    color: #495057; 
+    font-size: 13px; 
+    font-family: Poppins; 
+    font-weight: 500px; 
+    line-height: 25px; 
+    word-wrap: break-word;
+    left: 0px;
+}
+/*baloldali sidebar resz*/
+.pages{
+    top: 0px; 
+    position: absolute; 
+    color: rgba(73, 80, 87, 0.50); 
+    font-size: 12px; 
+    font-family: Poppins; 
+    font-weight: 500;
+    line-height: 25px;
+    word-wrap: break-word;
+}
+.selectedpage{
+    top: 0px; position: absolute; color: #495057; font-size: 12px; font-family: Poppins; font-weight: 500; line-height: 25px; word-wrap: break-word;
+}
+/*footer*/
+.maindivs > div{
+    color: rgba(248, 249, 250, 0.50); 
+    font-size: 12px; 
+    font-family: Poppins; 
+    font-weight: 500;
+    position: absolute; 
+    word-wrap: break-word;
+    line-height: 25px;
+}
+/*.footertext{
+    color: rgba(248, 249, 250, 0.50); 
+    font-size: 12px; 
+    font-family: Poppins; 
+    font-weight: 500;
+    position: absolute; 
+    word-wrap: break-word;
+    line-height: 25px;
+}*/
+#footerline{
+    width: 1240px; 
+    height: 0px; 
+    left: 100px; 
+    top: 2213px; 
+    position: absolute; 
+    border: 3px rgba(229, 229, 229, 0.20) solid;
+}
+#footerbackround{
+    width: 1440px; 
+    height: 325px; 
+    left: 0px; 
+    top: 2048px; 
+    position: absolute; 
+    background: #212529;
+}
+#footerbrand{
+    left: 100px;
+    top: 2148px; 
+    position: absolute;
+}
+#footerbrand > span{
+    font-size: 18px; 
+    font-family: Poppins;
+     font-weight: 700; 
+     line-height: 25px; 
+     word-wrap: break-word;
+}
+/*footer*/
+/*header*/
+
+.mainpages{
+    color: rgba(73, 80, 87, 0.50); 
+    position: absolute;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 25px;
+    word-wrap: break-word;
+    top: 37px; 
+    
+}
+#selectedmainpage{
+    position: absolute;
+    font-size: 12px;
+    font-family: Poppins;
+    font-weight: 500;
+    line-height: 25px;
+    word-wrap: break-word;
+    top: 37px; 
+    color: #495057;
+}
+.maindivs>div>span{
+    font-size: 18px;
+    font-family: Poppins;
+    font-weight: 700;
+    line-height: 25px;
+    word-wrap: break-word;
+    
+}
+.rectangle{
+    position: absolute;
+     background: rgba(73, 80, 87, 0.50);
+     width: 8px; 
+     height: 4.85px;
+}
+/*header*/
+.maindivs{
+    width: 100%; 
+    height: 100%; 
+    position: relative; 
+    background: #F8F9FA;
+}
+.maindivs>div{
+    position: absolute;
+    font-family: Poppins;
+    word-wrap: break-word ;
+}
+.mainpicturetext{
+    font-weight: 300;
+    font-family: Poppins;
+    line-height: 20px;
+    word-wrap: break-word;
+    color: #E5E5E5;
+    font-size: 12px;
+    line-height: 20px; 
+}
+.maintext{
+    font-family: Poppins;
+    word-wrap: break-word ;
+    
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    line-height: 40px;
+
+}
+header>.maindivs>div{
+    position: absolute;
+    color: rgba(73, 80, 87, 0.50);
+}
+.login{
+    background: #DDBEA9;
+     border-radius: 20px;
+     width: 100px; 
+     height: 40px; 
+}
+
+.maindivs>#searchtopic>.top0px{
+    left: 22px; 
+    color: rgba(73, 80, 87, 0.50);
+    font-size: 12px;
+    font-family: Poppins; 
+    font-weight: 500;
+    line-height: 25px;
+    word-wrap: break-word;
+    
+}
+.maindivs>#searchtopic>.left0px{
+    width: 12px;
+    height: 12px;
+    top: 6px;  
+    background: rgba(73, 80, 87, 0.50);
+     width: 12px;
+      height: 12px;
+      top: 6px;  
+      background: rgba(73, 80, 87, 0.50);
+}
+.maindivs>img{
+    width: 1240px; 
+    height: 500px; 
+    left: 100px; 
+    top: 100px; 
+    position: absolute;
+     background: linear-gradient(0deg, #212529 0%, #212529 100%); 
+     border-radius: 5px;
+}
+.center{
+    text-align: center;
+}
+.left0px{
+    left: 0px;
+}
+.top0px{
+    top: 0px;
+}
+.height0px{
+    height: 0px;
+}
+.borderbeige{
+    border: 2px #DDBEA9 solid;
+}
+#searchtopic{
+    left: 206px;
+     top: 1040px;
+}
