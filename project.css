@@ -143,7 +143,7 @@
 .selectedpage{
     top: 0px; 
     position: absolute; 
-    color: #495057; 
+    color: #495057 !important; 
     font-size: 13px; 
     font-family: Poppins; 
     font-weight: 500; 
@@ -265,7 +265,7 @@ header>.maindivs>div{
     color: rgba(73, 80, 87, 0.50);
 }
 .login{
-    background: #DDBEA9;
+    background: #bb8c6c;
      border-radius: 20px;
      width: 82px; 
      height: 40px; 
@@ -330,6 +330,24 @@ button{
     color: #212529;
     border-radius: 5px;
 }
+a{
+    text-decoration: none;
+}
+a:visited{
+    color: #DDBEA9;
+}
+.articleinfos>div>a:link{
+    color: #C4C4C4;
+}
+footer>.maindivs>div>a:hover{
+    color: beige;
+}
+header>.maindivs>div>a:hover{
+    color: brown;
+}
+header>.maindivs>div>div>a:hover{
+    color: brown;
+}
 @media only screen and (max-width: 1100px) {
     .maindivs>img{
         width: 730px!important; /*1240px*/
@@ -353,14 +371,10 @@ button{
     }
     .maintext{
         font-family: Poppins;
-        
         font-size: 17px !important;
         font-weight: 500 !important;
         line-height: 40px;
         width: 50px;
-        overflow-wrap: break-word;  
-        word-wrap: break-word; 
-        word-break: break-word;
     }
     .leftsidebartext1{
         position: absolute; 
@@ -398,4 +412,5 @@ button{
         font-size: 13px ;
         background: rgba(73, 80, 87, 0.50);
     }
+    
   }
