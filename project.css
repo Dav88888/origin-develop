@@ -226,7 +226,14 @@
     font-weight: 500;
     line-height: 25px;
     word-wrap: break-word;
-    top: 37px;
+    left: 11px; 
+    top: 7px; 
+}
+#getstartedblock{
+    width: 100px; 
+    height: 40px; 
+    left: 87.5%; 
+    top: 30px;
 }
 .maindivs>div>span{
     font-size: 18px;
@@ -284,6 +291,7 @@
     font-size: 25px !important;
     font-weight: 700 !important;
     line-height: 40px;
+    width: 400px;
     top: 322px;
     left: 39.5% !important;
     color: #F8F9FA !important;
@@ -296,8 +304,8 @@
     line-height: 40px;
     width: 393px; 
     left: 10%;
-     top: 700px;
-     color: #212529;
+    top: 700px;
+    color: #212529;
 }
 
 header>.maindivs>div{
@@ -329,7 +337,7 @@ header>.maindivs>div{
     background: rgba(73, 80, 87, 0.50); 
 }
 .maindivs>img{
-    width: 85%; /*1240px*/
+    width: 90%; /*1240px*/
     height: 30em;/*500px;/*500px; */
     left: 5%;/*8em;/*100px; */
     top: 8em;/*100px;  
@@ -370,6 +378,11 @@ button{
     color: #212529;
     border-radius: 5px;
 }
+#picturenumber{
+    width: 76.01px; 
+    left: 46.5% ; 
+    top: 540px; 
+}
 a{
     text-decoration: none;
 }
@@ -388,13 +401,13 @@ header>.maindivs>div>a:hover{
 header>.maindivs>div>div>a:hover{
     color: brown;
 }
-@media only screen and (max-width: 1140px) {
+/*------------------------------------------------------------------------------*/
+@media only screen and (max-width: 1120px) {
     .maindivs>img{
-        width: 80% !important; /*730px1240px*/
+        width: 90% !important; /*730px1240px*/
         height: 375px !important;/*500px;/*500px; */
         left: 5%;/*8em;/*100px; */
-        top: 8em;/*100px;  
-        right: 3%;*/
+        top: 8em;/*100px;  */
         text-align: center !important;
         position: absolute;
         background: linear-gradient(0deg, #212529 0%, #212529 100%); 
@@ -482,7 +495,12 @@ header>.maindivs>div>div>a:hover{
         color: #E5E5E5;
         font-size: 12px;
         line-height: 20px; 
-        left: 46.5% !important;
+        left: 46.5% !important;  
+    }
+    #picturenumber{
+        width: 76.01px; 
+        left: 46.5% ; 
+        top: 450px; 
     }
     #maintext1{
         font-family: Poppins;
@@ -498,38 +516,73 @@ header>.maindivs>div>div>a:hover{
     #maintext2{
         font-family: Poppins;
         word-wrap: break-word ;
-        font-size: 18px !important;
+        font-size: 25px !important;
         font-weight: 700 !important;
         line-height: 40px;
-        width: 253px !important; 
+        width: 333px !important; 
         left: 10%;
          top: 700px;
          color: #212529;
     }
     .articleinfos{
-        width: 220px !important; 
-        height: 105px; 
-        left: 20%;/*318px; */
-        top: 40px; 
-        position: absolute; 
-        flex-direction: column; 
-        justify-content: flex-start; 
-        align-items: flex-start; 
-        gap: 15px; 
-        display: inline-flex;
+        left: 15%;/*318px; */
+    }
+    .otherarticlesdate{
+        left: 15%;/*318px; */
+    }
+    .articleslowside{/*csak az oldalszámért és a négyzetért felel*/
+        left: 55%;/*569px; */
+    }
+    .dividingline{
+        left: 15%;/*318px; */
+    }
+    .author{
+        left: 15%;/*318px; */
+    }
+    #getstartedblock{
+        left: 82.5%; 
     }
   }
-  @media only screen and (max-width: 600px) {
+/*------------------------------------------------------------------------------*/
+
+  @media only screen and (max-width: 780px) {
     .maindivs>img{
-        width: 547.5px!important; /*1240px*/
-        height: 281.25px !important;/*500px;/*500px; */
+        width: 90%!important; /*1240px*/
+        height: 350px !important;/*500px;/*500px; */
         left: 5%;/*8em;/*100px; */
-        top: 8em;/*100px;  
+        top: 10em;/*100px;  
         right: 3%;*/
         text-align: center !important;
-        position: absolute;
-        background: linear-gradient(0deg, #212529 0%, #212529 100%); 
-        border-radius: 5px;
+        
+    }
+    #mainpicturetext1{
+        font-weight: 300;
+        font-family: Poppins;
+        line-height: 20px;
+        word-wrap: break-word;
+        color: #E5E5E5;
+        font-size: 12px;
+        line-height: 20px; 
+        left: 46.5% !important;
+        top: 260px;
+    }
+    #picturenumber{
+        width: 76.01px; 
+        left: 46.5% ; 
+        top: 380px; 
+    }
+    #mainpicturetext2{
+        font-size: 11px !important;
+    }
+    #maintext1{
+        font-family: Poppins;
+        word-wrap: break-word ;
+        font-size: 22px !important;
+        font-weight: 700 !important;
+        line-height: 40px;
+        top: 280px;
+        left: 80.5% !important;
+        color: #F8F9FA !important;
     }
     .maindivs>.center>a{
         color: #212529 !important;
@@ -562,54 +615,54 @@ header>.maindivs>div>div>a:hover{
         font-weight: 500 !important;
         line-height: 40px;
         width: 50px;
-        width: 300px;
-        left: 27% !important;
+        width: 200px;
+        left: 37% !important;
     }
     #maintext2{
-        font-family: Poppins;
-        word-wrap: break-word ;
-        font-size: 12px !important;
-        font-weight: 700 !important;
-        line-height: 40px;
+        font-size: 22px !important;
+        line-height: 20px;
         width: 100px; 
         left: 10%;
+        height: 80px;
         top: 700px;
-        color: #212529;
+
     }
     .leftsidebartext1{
-        position: absolute; 
-        color: #495057; 
-        font-size: 9px; 
-        font-family: Poppins; 
-        font-weight: 500px; 
-        line-height: 25px; 
-        word-wrap: break-word;
-        left: 19px;
+        font-size: 19; 
+        left: 30%;
     }
     .leftsidebartext2{
-        position: absolute; 
-        color: #495057; 
-        font-size: 9px; 
-        font-family: Poppins; 
-        font-weight: 500px; 
-        line-height: 25px; 
-        word-wrap: break-word;
-        left: 0px;
+        font-size: 19px; 
+        left: 21%;
     }
-    .maindivs>#searchtopic>.top0px{
-        left: 22px; 
-        color: rgba(73, 80, 87, 0.50);
-        font-family: Poppins; 
-        font-weight: 500;
-        line-height: 25px;
-        word-wrap: break-word;
-        font-size: 13px !important;
+    #searchtopic{
+        left: 14.5%;/*206px;*/
+        top: 1040px;
     }
-    .maindivs>#searchtopic>.left0px{
-        width: 12px;
-        height: 3px;
-        top: 6px;  
-        font-size: 13px ;
-        background: rgba(73, 80, 87, 0.50);
+    .articleinfos{
+        left: 3%;/*318px; */
+        width: 50px !important;
+    }
+    .caption{
+        width: 200px; 
+    }
+    .maintitle{
+        width: 200px;
+    }
+    .otherarticlesdate{
+        left:  13.5%;/*318px; */
+    }
+    .articleslowside{/*csak az oldalszámért és a négyzetért felel*/
+        left: 32%;/*569px; */
+    }
+    .dividingline{
+        left: 3%;/*318px; */
+        width: 210px; 
+    }
+    .author{
+        left: 3%;/*318px; */
+    }
+    #getstartedblock{
+        left: 82.5%; 
     }
   }
