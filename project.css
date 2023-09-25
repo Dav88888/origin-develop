@@ -1,4 +1,6 @@
-/*kepes sidebar resz*/
+body{
+    font-family: Poppins; 
+}
 .image{
     width: 282px;
     height: 197px; 
@@ -9,13 +11,12 @@
     border-radius: 3px;
 }
 .otherarticlesdate{
-    left: 48%;/*318px; */
+    left: 48%;
     top: 5px; 
     position: absolute; 
     text-align: right; 
     color: #6C757D; 
     font-size: 12px; 
-    font-family: Poppins; 
     font-weight: 300; 
     line-height: 20px; 
     word-wrap: break-word;
@@ -23,7 +24,7 @@
 .articleinfos{
     width: 287px; 
     height: 105px; 
-    left: 48%;/*318px; */
+    left: 48%;
     top: 40px; 
     position: absolute; 
     flex-direction: column; 
@@ -36,7 +37,6 @@
     width: 287px;
     color: #212529; 
     font-size: 16px; 
-    font-family: Poppins; 
     font-weight: 500; 
     line-height: 25px; 
     word-wrap: break-word;
@@ -45,18 +45,16 @@
     width: 287px; 
     color: #6C757D; 
     font-size: 12px; 
-    font-family: Poppins; 
     font-weight: 300; 
     line-height: 20px;
     word-wrap: break-word;
 }
 .author{
-    left: 48%;/*318px; */
+    left: 48%;
     top: 175px; 
     position: absolute; 
     color: #6C757D; 
     font-size: 12px; 
-    font-family: Poppins; 
     font-weight: 300; 
     line-height: 20px; 
     word-wrap: break-word;
@@ -64,7 +62,7 @@
 .dividingline{
     width: 287px; 
     height: 0px; 
-    left: 48%;/*318px; */
+    left: 48%;
     top: 160px;
     position: absolute;
     border: 3px #E5E5E5 solid;
@@ -72,8 +70,7 @@
 .articles{
     width: 605px;
     height: 200px; 
-    left: 48%;/*629px;*/ 
-    
+    left: 48%; 
     position: absolute;
 }
 .cube{
@@ -91,25 +88,20 @@
     text-align: right;
     color: #6C757D; 
     font-size: 12px; 
-    font-family: Poppins; 
     font-weight: 300; 
     line-height: 20px;
     word-wrap: break-word;
 }
-.articleslowside{/*csak az oldalszámért és a négyzetért felel*/
-    /*width: 35.69px; 
-    height: 20px; */
-    left: 88%;/*569px; */
+.articleslowside{
+    left: 88%;
     top: 175px; 
     position: absolute;
 }
-/*kepes sidebar resz*/
-/*baloldali sidebar resz*/
+
 .leftsidebartext1{
     position: absolute; 
     color: #495057; 
     font-size: 17px; 
-    font-family: Poppins; 
     width: 300px;
     font-weight: 500px; 
     line-height: 25px; 
@@ -120,20 +112,17 @@
     position: absolute; 
     color: #495057; 
     font-size: 17px; 
-    font-family: Poppins; 
     width: 300px;
     font-weight: 500px; 
     line-height: 25px; 
     word-wrap: break-word;
     left: 0px;
 }
-/*baloldali sidebar resz*/
 .pages{
     top: 0px; 
     position: absolute; 
     color: rgba(73, 80, 87, 0.50); 
     font-size: 13px; 
-    font-family: Poppins; 
     font-weight: 500;
     line-height: 25px;
     word-wrap: break-word;
@@ -143,7 +132,6 @@
     position: absolute; 
     color: #495057 !important; 
     font-size: 13px; 
-    font-family: Poppins; 
     font-weight: 500; 
     line-height: 25px; 
     word-wrap: break-word;
@@ -152,31 +140,30 @@
 .maindivs > div{
     color: rgba(248, 249, 250, 0.50); 
     font-size: 12px; 
-    font-family: Poppins; 
     font-weight: 500;
     position: absolute; 
     word-wrap: break-word;
     line-height: 25px;
 }
 #footerline{
-    width: 80%;/*1240px; */
+    width: 90%;
     height: 0px; 
-    left: 5%;/*8em;/*100px; */
-    top: 185em;/*2213px; */
+    left: 5%;
+    top: 185em;
     position: absolute; 
     border: 3px rgba(229, 229, 229, 0.20) solid;
 }
 #footerbackround{
-    width: 100%; /*1440px*/
-    height: 24em;/*325px; */
-    left: 2em;/*0px;*/ 
-    top: 172em;/*2048px; */
+    width: 100%;
+    height: 24em;
+    left: 2em;
+    top: 172em;
     position: absolute; 
     background: #212529;
 }
 #footerbrand{
-    left: 7.5%;/*8em;/*100px; */
-    top: 177em; /*2148px; */
+    left: 7.5%;
+    top: 177em; 
     position: absolute;
 }
 #footerbrand > span{
@@ -188,13 +175,9 @@
 }
 .center{
     text-align: center;
-    
 }
-
 /*footer*/
-
 /*header*/
-
 .mainpages{
     position: absolute;
     font-size: 13px;
@@ -305,7 +288,6 @@
     top: 700px;
     color: #212529;
 }
-
 header>.maindivs>div{
     position: absolute;
     color: rgba(73, 80, 87, 0.50);
@@ -316,11 +298,10 @@ header>.maindivs>div{
      width: 82px; 
      height: 40px; 
 }
-
 .maindivs>#searchtopic>.top0px{
     left: 22px; 
     color: rgba(73, 80, 87, 0.50);
-    font-family: Poppins; 
+    
     font-weight: 500;
     line-height: 25px;
     word-wrap: break-word;
@@ -335,17 +316,14 @@ header>.maindivs>div{
     background: rgba(73, 80, 87, 0.50); 
 }
 .maindivs>img{
-    width: 90%; /*1240px*/
-    height: 30em;/*500px;/*500px; */
-    left: 5%;/*8em;/*100px; */
-    top: 8em;/*100px;  
-    right: 3%;*/
-    
+    width: 90%;
+    height: 30em;
+    left: 5%;
+    top: 8em;
     position: absolute;
     background: linear-gradient(0deg, #212529 0%, #212529 100%); 
     border-radius: 5px;
 }
-
 .left0px{
     left: 0px;
 }
@@ -359,7 +337,7 @@ header>.maindivs>div{
     border: 2px #DDBEA9 solid;
 }
 #searchtopic{
-    left: 10%;/*206px;*/
+    left: 10%;
     top: 1040px;
 }
 .vence{
@@ -370,7 +348,6 @@ header>.maindivs>div{
     font-size: 22px !important;
 }
 button{
-     
     font-family: Poppins;
     background-color: #DDBEA9;
     color: #212529;
@@ -399,23 +376,15 @@ header>.maindivs>div>a:hover{
 header>.maindivs>div>div>a:hover{
     color: brown;
 }
-/*------------------------------------------------------------------------------*/
+
 @media only screen and (max-width: 1120px) {
     .maindivs>img{
-        width: 90% !important; /*730px1240px*/
-        height: 375px !important;/*500px;/*500px; */
-        left: 5%;/*8em;/*100px; */
-        top: 8em;/*100px;  */
-        text-align: center !important;
-        position: absolute;
-        background: linear-gradient(0deg, #212529 0%, #212529 100%); 
-        border-radius: 5px;
+        height: 375px !important;
     }
     .image{
         opacity: 0.0;
     }
     .maindivs>.center>a{
-        color: #212529 !important;
         opacity: 0.0;
     }
     .maindivs>.mainpages>a{
@@ -430,70 +399,15 @@ header>.maindivs>div>div>a:hover{
     .maindivs>.rectangle{
         opacity: 0.0;
     }
-    .image{
-        width: 211px;
-        height: 147.75px; 
-        left: 0px; 
-        top: 0px; 
-        position: absolute; 
-        background: linear-gradient(0deg, #C4C4C4 0%, #C4C4C4 100%); 
-        border-radius: 3px;
-    }
+  
     .leftsidebartext1{
-        position: absolute; 
-        color: #495057; 
         font-size: 13px; 
-        font-family: Poppins; 
-        font-weight: 500px; 
-        line-height: 25px; 
-        word-wrap: break-word;
-        left: 19px;
-    }
-    .leftsidebartext2{
-        position: absolute; 
-        color: #495057; 
-        font-size: 13px; 
-        font-family: Poppins; 
-        font-weight: 500px; 
-        line-height: 25px; 
-        word-wrap: break-word;
-        left: 0px;
-    }
-    .maindivs>#searchtopic>.top0px{
-        left: 22px; 
-        color: rgba(73, 80, 87, 0.50);
-        font-family: Poppins; 
-        font-weight: 500;
-        line-height: 25px;
-        word-wrap: break-word;
-        font-size: 13px !important;
     }
     .maindivs>#searchtopic>.left0px{
         width: 12px;
         height: 3px;
         top: 6px;  
         font-size: 13px ;
-        background: rgba(73, 80, 87, 0.50);
-    }
-    #mainpicturetext1{
-        font-weight: 300;
-        font-family: Poppins;
-        line-height: 20px;
-        word-wrap: break-word;
-        color: #E5E5E5;
-        font-size: 12px;
-        line-height: 20px; 
-        left: 46.5% !important;
-    }
-    #mainpicturetext2{
-        font-weight: 300;
-        font-family: Poppins;
-        line-height: 20px;
-        word-wrap: break-word;
-        color: #E5E5E5;
-        font-size: 12px;
-        line-height: 20px; 
-        left: 46.5% !important;  
     }
     #picturenumber{
         width: 76.01px; 
@@ -501,129 +415,52 @@ header>.maindivs>div>div>a:hover{
         top: 450px; 
     }
     #maintext1{
-        font-family: Poppins;
-        word-wrap: break-word ;
-        font-size: 25px !important;
-        font-weight: 700 !important;
-        line-height: 40px;
-        width: 300px;
-        top: 322px;
         left: 34.5% !important;
-        color: #F8F9FA !important;
     }
-    #maintext2{
-        font-family: Poppins;
-        word-wrap: break-word ;
-        font-size: 25px !important;
-        font-weight: 700 !important;
-        line-height: 40px;
-        width: 333px !important; 
-        left: 10%;
-         top: 700px;
-         color: #212529;
-    }
+
     .articleinfos{
-        left: 15%;/*318px; */
+        left: 15%;
     }
     .otherarticlesdate{
-        left: 15%;/*318px; */
+        left: 15%;
     }
-    .articleslowside{/*csak az oldalszámért és a négyzetért felel*/
-        left: 55%;/*569px; */
+    .articleslowside{
+        left: 55%;
     }
     .dividingline{
-        left: 15%;/*318px; */
+        left: 15%;
     }
     .author{
-        left: 15%;/*318px; */
+        left: 15%;
     }
     #getstartedblock{
         left: 82.5%; 
     }
+    .articlepic{
+        left: 35% !important;
+    }
   }
-/*------------------------------------------------------------------------------*/
 
   @media only screen and (max-width: 780px) {
     .maindivs>img{
-        width: 90%!important; /*1240px*/
-        height: 350px !important;/*500px;/*500px; */
-        left: 5%;/*8em;/*100px; */
-        top: 10em;/*100px;  
-        right: 3%;*/
-        text-align: center !important;
-        
+        height: 350px !important;
+        top: 10em;  
     }
     #mainpicturetext1{
-        font-weight: 300;
-        font-family: Poppins;
-        line-height: 20px;
-        word-wrap: break-word;
-        color: #E5E5E5;
-        font-size: 12px;
-        line-height: 20px; 
-        left: 46.5% !important;
         top: 260px;
     }
     #picturenumber{
-        width: 76.01px; 
-        left: 46.5% ; 
         top: 380px; 
     }
-    #mainpicturetext2{
-        font-size: 11px !important;
-    }
     #maintext1{
-        font-family: Poppins;
-        word-wrap: break-word ;
-        font-size: 22px !important;
-        font-weight: 700 !important;
-        line-height: 40px;
         top: 280px;
-        left: 80.5% !important;
-        color: #F8F9FA !important;
-    }
-    .maindivs>.center>a{
-        color: #212529 !important;
-        opacity: 0.0;
-    }
-    .maindivs>.mainpages>a{
-        opacity: 0.0;
-    }
-    .maindivs>div>.mainpages>a{
-        opacity: 0.0;
-    }
-    .maindivs>div>.rectangle{
-        opacity: 0.0;
-    }
-    .maindivs>.rectangle{
-        opacity: 0.0;
-    }
-    .image{
-        width: 211px;
-        height: 147.75px; 
-        left: 0px; 
-        top: 0px; 
-        position: absolute; 
-        background: linear-gradient(0deg, #C4C4C4 0%, #C4C4C4 100%); 
-        border-radius: 3px;
-    }
-    #maintext1{
-        font-family: Poppins;
-        font-size: 17px !important;
-        font-weight: 500 !important;
-        line-height: 40px;
-        width: 50px;
-        width: 200px;
-        left: 37% !important;
+        width: 260px;
     }
     #maintext2{
         font-size: 22px !important;
         line-height: 20px;
-        width: 100px; 
         left: 10%;
-        height: 80px;
         top: 700px;
-
     }
     .leftsidebartext1{
         font-size: 19; 
@@ -634,18 +471,20 @@ header>.maindivs>div>div>a:hover{
         left: 21%;
     }
     #searchtopic{
-        left: 14.5%;/*206px;*/
+        left: 14.5%;
         top: 1040px;
     }
     .articleinfos{
-        left: 3%;/*318px; */
+        left: 3%;
         width: 50px !important;
     }
     .caption{
         width: 200px; 
+        font-size: 11px;
     }
     .maintitle{
         width: 200px;
+        font-size: 12px;
     }
     .otherarticlesdate{
         left:  13.5%;
@@ -663,8 +502,19 @@ header>.maindivs>div>div>a:hover{
     #getstartedblock{
         left: 82.5%; 
     }
+    #footerline{
+        width: 85%;
+        left: 10%;
+    }
+    .articlepic{
+        left: 25% !important;
+    }
+
   }
   .articlepic{
+    position: absolute;
     width: 300px;
     height: 200px;
+    top: 34%;
+    left: 45% ;
   }
