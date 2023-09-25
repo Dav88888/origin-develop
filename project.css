@@ -360,6 +360,22 @@ header>.maindivs>div>div>a:hover{
         background: linear-gradient(0deg, #212529 0%, #212529 100%); 
         border-radius: 5px;
     }
+    .maindivs>.center>a{
+        color: #212529 !important;
+        opacity: 0.0;
+    }
+    .maindivs>.mainpages>a{
+        opacity: 0.0;
+    }
+    .maindivs>div>.mainpages>a{
+        opacity: 0.0;
+    }
+    .maindivs>div>.rectangle{
+        opacity: 0.0;
+    }
+    .maindivs>.rectangle{
+        opacity: 0.0;
+    }
     .image{
         width: 211px;
         height: 147.75px; 
