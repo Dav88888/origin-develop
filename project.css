@@ -254,7 +254,7 @@
     font-family: Poppins;
     word-wrap: break-word ;
 }
-.mainpicturetext{
+#mainpicturetext1{
     font-weight: 300;
     font-family: Poppins;
     line-height: 20px;
@@ -263,14 +263,43 @@
     font-size: 12px;
     line-height: 20px; 
     left: 46.5% !important;
+    left: 672px; 
+    top: 292px;
 }
-.maintext{
+#mainpicturetext2{
+    font-weight: 300;
+    font-family: Poppins;
+    line-height: 20px;
+    word-wrap: break-word;
+    color: #E5E5E5;
+    font-size: 12px;
+    line-height: 20px; 
+    left: 46.5% !important;
+    text-align: center; 
+    letter-spacing: 2.40px;
+}
+#maintext1{
     font-family: Poppins;
     word-wrap: break-word ;
     font-size: 25px !important;
     font-weight: 700 !important;
     line-height: 40px;
+    top: 322px;
+    left: 39.5% !important;
+    color: #F8F9FA !important;
 }
+#maintext2{
+    font-family: Poppins;
+    word-wrap: break-word ;
+    font-size: 25px !important;
+    font-weight: 700 !important;
+    line-height: 40px;
+    width: 393px; 
+    left: 10%;
+     top: 700px;
+     color: #212529;
+}
+
 header>.maindivs>div{
     position: absolute;
     color: rgba(73, 80, 87, 0.50);
@@ -361,8 +390,139 @@ header>.maindivs>div>div>a:hover{
 }
 @media only screen and (max-width: 1140px) {
     .maindivs>img{
-        width: 730px!important; /*1240px*/
+        width: 80% !important; /*730px1240px*/
         height: 375px !important;/*500px;/*500px; */
+        left: 5%;/*8em;/*100px; */
+        top: 8em;/*100px;  
+        right: 3%;*/
+        text-align: center !important;
+        position: absolute;
+        background: linear-gradient(0deg, #212529 0%, #212529 100%); 
+        border-radius: 5px;
+    }
+    .image{
+        opacity: 0.0;
+    }
+    .maindivs>.center>a{
+        color: #212529 !important;
+        opacity: 0.0;
+    }
+    .maindivs>.mainpages>a{
+        opacity: 0.0;
+    }
+    .maindivs>div>.mainpages>a{
+        opacity: 0.0;
+    }
+    .maindivs>div>.rectangle{
+        opacity: 0.0;
+    }
+    .maindivs>.rectangle{
+        opacity: 0.0;
+    }
+    .image{
+        width: 211px;
+        height: 147.75px; 
+        left: 0px; 
+        top: 0px; 
+        position: absolute; 
+        background: linear-gradient(0deg, #C4C4C4 0%, #C4C4C4 100%); 
+        border-radius: 3px;
+    }
+    .leftsidebartext1{
+        position: absolute; 
+        color: #495057; 
+        font-size: 13px; 
+        font-family: Poppins; 
+        font-weight: 500px; 
+        line-height: 25px; 
+        word-wrap: break-word;
+        left: 19px;
+    }
+    .leftsidebartext2{
+        position: absolute; 
+        color: #495057; 
+        font-size: 13px; 
+        font-family: Poppins; 
+        font-weight: 500px; 
+        line-height: 25px; 
+        word-wrap: break-word;
+        left: 0px;
+    }
+    .maindivs>#searchtopic>.top0px{
+        left: 22px; 
+        color: rgba(73, 80, 87, 0.50);
+        font-family: Poppins; 
+        font-weight: 500;
+        line-height: 25px;
+        word-wrap: break-word;
+        font-size: 13px !important;
+    }
+    .maindivs>#searchtopic>.left0px{
+        width: 12px;
+        height: 3px;
+        top: 6px;  
+        font-size: 13px ;
+        background: rgba(73, 80, 87, 0.50);
+    }
+    #mainpicturetext1{
+        font-weight: 300;
+        font-family: Poppins;
+        line-height: 20px;
+        word-wrap: break-word;
+        color: #E5E5E5;
+        font-size: 12px;
+        line-height: 20px; 
+        left: 46.5% !important;
+    }
+    #mainpicturetext2{
+        font-weight: 300;
+        font-family: Poppins;
+        line-height: 20px;
+        word-wrap: break-word;
+        color: #E5E5E5;
+        font-size: 12px;
+        line-height: 20px; 
+        left: 46.5% !important;
+    }
+    #maintext1{
+        font-family: Poppins;
+        word-wrap: break-word ;
+        font-size: 25px !important;
+        font-weight: 700 !important;
+        line-height: 40px;
+        width: 300px;
+        top: 322px;
+        left: 34.5% !important;
+        color: #F8F9FA !important;
+    }
+    #maintext2{
+        font-family: Poppins;
+        word-wrap: break-word ;
+        font-size: 18px !important;
+        font-weight: 700 !important;
+        line-height: 40px;
+        width: 253px !important; 
+        left: 10%;
+         top: 700px;
+         color: #212529;
+    }
+    .articleinfos{
+        width: 220px !important; 
+        height: 105px; 
+        left: 20%;/*318px; */
+        top: 40px; 
+        position: absolute; 
+        flex-direction: column; 
+        justify-content: flex-start; 
+        align-items: flex-start; 
+        gap: 15px; 
+        display: inline-flex;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .maindivs>img{
+        width: 547.5px!important; /*1240px*/
+        height: 281.25px !important;/*500px;/*500px; */
         left: 5%;/*8em;/*100px; */
         top: 8em;/*100px;  
         right: 3%;*/
@@ -396,17 +556,30 @@ header>.maindivs>div>div>a:hover{
         background: linear-gradient(0deg, #C4C4C4 0%, #C4C4C4 100%); 
         border-radius: 3px;
     }
-    .maintext{
+    #maintext1{
         font-family: Poppins;
         font-size: 17px !important;
         font-weight: 500 !important;
         line-height: 40px;
         width: 50px;
+        width: 300px;
+        left: 27% !important;
+    }
+    #maintext2{
+        font-family: Poppins;
+        word-wrap: break-word ;
+        font-size: 12px !important;
+        font-weight: 700 !important;
+        line-height: 40px;
+        width: 100px; 
+        left: 10%;
+        top: 700px;
+        color: #212529;
     }
     .leftsidebartext1{
         position: absolute; 
         color: #495057; 
-        font-size: 13px; 
+        font-size: 9px; 
         font-family: Poppins; 
         font-weight: 500px; 
         line-height: 25px; 
@@ -416,7 +589,7 @@ header>.maindivs>div>div>a:hover{
     .leftsidebartext2{
         position: absolute; 
         color: #495057; 
-        font-size: 13px; 
+        font-size: 9px; 
         font-family: Poppins; 
         font-weight: 500px; 
         line-height: 25px; 
