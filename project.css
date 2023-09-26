@@ -41,6 +41,12 @@ body{
     line-height: 25px; 
     word-wrap: break-word;
 }
+.maintitle>a:visited{
+    color: #604811 !important;
+}
+.maintitle>a{
+    color: #d5a330 !important
+}
 .caption{
     width: 287px; 
     color: #6C757D; 
